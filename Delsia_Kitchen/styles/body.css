@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   color: #333;
+  margin-right: 0;
 }
 
 .navbar {
@@ -42,7 +43,7 @@ body {
     
     
 }
-.home:hover{
+.Login:hover{
     
     color: rgb(105, 94, 94);
   
@@ -66,6 +67,7 @@ color: rgb(255, 0, 132);
     color: white;
     text-align: center;
     margin-top:0%;
+    ;
   }
   
 
@@ -91,7 +93,7 @@ color: rgb(255, 0, 132);
 }
 .btn:hover{
     background-color:chocolate ;
-    color: yellow;
+    color: rgb(0, 0, 0);
     font-weight: bolder;
     font-size: larger;
     transition: background-color 5s,color 1s, font-size 2s;
@@ -108,4 +110,50 @@ color: rgb(255, 0, 132);
   .nav-box{
     display: inline-block;
   }
+  .products-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    
+  
+  .Products{
+display: flex;
+justify-content: center;
+
+  }
+  .product-box{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 50px;
+    background-color:rgb(213, 203, 184);
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 400px;
+   transition: all  1s; 
+    overflow:auto;
+  margin-left: 20px;
+  }
+
+  .product-box:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    
+    
+    
+  }
+  .product-img{
+    object-fit:fill;
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+  }
+  h3{
+    
+    margin-left:5px;
+    margin-right: 7px;
+  }
+
   
