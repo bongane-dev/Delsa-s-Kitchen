@@ -161,5 +161,28 @@ justify-content: center;
     border-radius: 30px;
     padding:20px;
   }
+  .foodListA{
+    display: inline-block;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 30px;
+  }
+  .foodListImg{
+    display: block;
+    height: 100px;
+    width: 100px;
+    justify-self: center
+  }
+.buyBtn{
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 22%;
+  border-color:blue;
+  border-radius: 100px;
 
+}
   
