@@ -3,6 +3,7 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #333;
   margin-right: 0;
+  background-color:chocolate;
 }
 
 .navbar {
@@ -154,6 +155,11 @@ justify-content: center;
     
     margin-left:5px;
     margin-right: 7px;
+  }
+  .productsBox{
+    background-color:burlywood;
+    border-radius: 30px;
+    padding:20px;
   }
 
   
