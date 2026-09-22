@@ -165,7 +165,7 @@ justify-content: center;
     display: inline-block;
     background-color: antiquewhite;
     padding: 10px;
-    margin-left: 10px;
+    margin-left: 100px;
     margin-top: 20px;
     justify-content: center;
     justify-items: center;
@@ -186,3 +186,10 @@ justify-content: center;
 
 }
   
+.foodSection{
+  display:inline-block;
+  margin-left:100px ;
+  background-color:#e67e22;
+  border-radius: 20px;
+
+}
