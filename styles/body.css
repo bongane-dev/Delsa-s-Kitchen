@@ -167,15 +167,12 @@ color: rgb(255, 0, 132);
     margin-right: 7px;
   }
   .productsBox{
-    background-color:burlywood;
+    background-color:rgb(244, 194, 129);
     border-radius: 30px;
     padding: clamp(16px, 4vw, 24px);
   }
-  .foodSection{
-    min-height: 0;
-    padding: 0;
-  }
-  .foodMenu{
+ 
+    .foodMenu{
     width: 100%;
     padding: clamp(18px, 4vw, 30px);
   }
@@ -224,8 +221,10 @@ color: rgb(255, 0, 132);
   display:flex;
   justify-content: center;
   margin: 30px clamp(16px, 5vw, 50px);
-  background-color:#e67e22;
+  background-color:#e3a570;
   border-radius: 20px;
+   min-height: 0;
+  padding: 0;
 
 }
 
