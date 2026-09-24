@@ -1,0 +1,132 @@
+@media (max-width: 700px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-block: 12px;
+  }
+
+  .logo-img {
+    height: 60px;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+
+  .nav-box {
+    flex-basis: 100%;
+  }
+
+  .nav-links {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero {
+    min-height: 60vh;
+  }
+
+  .Products {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .product-box {
+    height: 150px;
+    min-height: 150px;
+    padding: 10px 5px;
+    border-radius: 24px;
+  }
+
+  .product-box h3 {
+    font-size: 0.85rem;
+  }
+
+  .foodGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .foodSection{
+  display:flex;
+  justify-content: center;
+  /* margin: 30px clamp(16px, 5vw, 50px); */
+  background-color:#e3a570;
+  border-radius: 20px;
+  min-height: 0;
+  padding: 0;
+  }
+
+.foodListA{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 120px;
+    height: auto;
+    background-color: antiquewhite;
+    padding-top: 5px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 30px;
+    margin-left: -5px;
+    
+    /* padding-right: 50px; */
+    
+}
+
+.foodListImg{
+    display: block;
+    height: 150px;
+    width: 100px;
+    object-fit:fill;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding: 10px;
+    transition: transform 0.25s ease;
+  }
+.foodListImg:hover{
+  transform: scale(1.12);
+}
+.price_card{
+  background-color:coral;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 2px;
+}
+
+.buyBtn{
+  display: inline;
+  background-color: rgb(180, 81, 81);
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  padding: 15px;
+  padding-left:20px;
+  padding-right: 20px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+   transition: all 1s;
+}
+.buyBtn:hover{
+  cursor: pointer;
+  color:black;
+  background-color:#e67e22;
+  border-radius: 20px;
+  font-size: large;
+  transition: all 1s;
+}
+.buyBtn:active{
+  opacity: -1;
+}
+ 
+}
+/* this if for media fucntions */
+@media (max-width: 400px) {
+  .foodSection {
+    margin-inline: 10px;
+  }
+
+  .foodListA {
+    flex-basis: 100%;
+  }
+}
