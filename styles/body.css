@@ -191,16 +191,17 @@ color: rgb(255, 0, 132);
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 160px;
-    height: 220px;
+    width: 200px;
+    height: auto;
     background-color: antiquewhite;
     padding: 10px;
     border-radius: 30px;
+    
   }
   .foodListImg{
     display: block;
     height: 110px;
-    width: 110px;
+    width: 200px;
     object-fit: contain;
     transition: transform 0.25s ease;
   }
@@ -209,11 +210,13 @@ color: rgb(255, 0, 132);
 }
 
 .buyBtn{
-  padding-left: 30px;
-  padding-right: 30px;
-  margin: 0 0 10px;
-  border-color:blue;
-  border-radius: 100px;
+  display: inline;
+  background-color: brown;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
 
 }
 
@@ -276,12 +279,9 @@ color: rgb(255, 0, 132);
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .foodListA {
-    width: 145px;
-    height: 210px;
-  }
+ 
 }
-
+/* this if for media fucntions */
 @media (max-width: 400px) {
   .foodSection {
     margin-inline: 10px;
