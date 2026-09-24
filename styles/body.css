@@ -200,24 +200,46 @@ color: rgb(255, 0, 132);
   }
   .foodListImg{
     display: block;
-    height: 110px;
-    width: 200px;
-    object-fit: contain;
+    height: 120px;
+    width: 125px;
+    object-fit:fill;
+    padding-top: 10px;
     transition: transform 0.25s ease;
   }
 .foodListImg:hover{
   transform: scale(1.12);
 }
+.price_card{
+  background-color:coral;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 2px
+}
 
 .buyBtn{
   display: inline;
-  background-color: brown;
+  background-color: rgb(180, 81, 81);
+  color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding: 10px;
+  font-size: medium;
+  padding: 15px;
+  padding-left:20px;
+  padding-right: 20px;
   border: none;
   border-radius: 10px;
   margin-bottom: 20px;
-
+   transition: all 1s;
+}
+.buyBtn:hover{
+  cursor: pointer;
+  color:black;
+  background-color:#e67e22;
+  border-radius: 20px;
+  font-size: large;
+  transition: all 1s;
+}
+.buyBtn:active{
+  opacity: -1;
 }
 
 .foodSection{
